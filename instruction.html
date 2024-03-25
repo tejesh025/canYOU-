@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instructions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="instructions"><h1 id="instructions">INSTRUCTIONS</h1></header>
+    <nav id="navigation">
+        <ul>
+            <LI><a href="index.html"><</a></LI>
+            <LI><a href="index.html">Home</a></LI>
+            <LI><a href="instruction.html">Instructions</a></LI>
+            <LI><a href="code.html">Code</a></LI>
+            <li><a href="credits.html">credits</a></li>
+            <LI><a href="code.html">></a></LI>
+        </ul>
+    <main>
+        <div class="centerdiv">
+            <div id="mainpage"><h3 id="mheading">Main Page:</h3> <hr>
+                <p>Display a form where the user can input their username and the number they want to guess up to.
+                Add an input field for the username and another input field for the maximum number, along with a "Start Game" button.
+                When the user clicks the "Start Game" button, validate the input fields to ensure they are not empty and that the maximum number is a valid number.
+                If the input is valid, redirect the user to the next page (game page) with the username and maximum number as parameters in the URL.</P></div>
+            <div id="gamepage">
+                <h3 id="gheading">Game Page:</h3> <hr>  
+                <p> Retrieve the username and maximum number from the URL parameters.
+                    Display a dialogue box or input field where the user can input their guess.
+                        Add a "Check" button next to the input field.
+                        When the user clicks the "Check" button, validate the input to ensure it's a valid number within the range of 1 to the maximum number.
+                        Compare the user's guess with the target number (which should be randomly generated between 1 and the maximum number).
+                        Display hints in a box near the input field indicating whether the user's guess was too high, too low, or correct.
+                        Keep track of the number of attempts the user has made.</p>
+            </div>
+            <div id="features">
+                <h3 id="fheading">Additional Features:</h3> <hr>
+                <p>Provide feedback to the user indicating whether they won or lost after guessing the correct number.
+                    Allow the user to reset the game and play again if they wish.
+                    Implement a timer to challenge users to guess the number within a certain time limit.
+                    Add sound effects or animations to make the game more engaging.
+                    By following these instructions, you can create a simple "Guess the Number" game with the described features. Feel free to customize the game further based on your preferences and requirements!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

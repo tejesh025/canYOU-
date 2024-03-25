@@ -1,0 +1,193 @@
+*{
+    font-family:cascadia code;
+    margin:0px;
+    background-color:black;
+    color:#FEFDED;
+}
+header h1{
+    text-align: center;
+    color:#FEFDED;
+    padding:25px;
+    border: 2px solid #FEFDED;
+    border-radius: 5px;
+}
+.info{
+    margin:10px;
+}
+article{
+background-color: rgb(2, 20, 27);
+}
+#sub{
+    margin-left: 10px;
+}
+#arey {
+    height: 180px;
+    width: 280px;
+    border: 2px solid #FEFDED;
+    border-radius: 8px;
+    margin: 0 auto; /* This will center the div horizontally */
+    text-align: center;
+    
+}
+#areyou{
+    margin:20px;
+    border: 2px solid #FEFDED;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.un{
+    text-align: left;
+    margin: 3px;
+}
+#tot1{
+    width: 160;
+}
+button{
+    margin-top: 20px;
+    background-color: #FEFDED;
+    color: black;
+    border-radius: 2px solid #FEFDED;
+}
+footer{
+    text-align: center;
+}
+#intro{
+    margin-bottom: 40px;
+}
+#navigation ul{
+    list-style: none;
+    background-color: hsla(208, 91%, 63%, 0.9);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: 2px solid #FEFDED;
+}
+#navigation a{
+   
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    display:block;
+    text-align: center;
+}
+
+#navigation a{
+    float :left;
+}
+a.active{
+    background-color: rgb(91, 91, 254);
+    font-weight: bold ;
+    border-radius: 5px;
+    animation-name: grow;
+}
+a:hover:not(a.active){
+    background-color: hsl(208, 91%, 63%);
+    transform:scale(1.4,1.4)
+}
+
+#tries{
+    text-align: center;
+    border:2px solid #FEFDED;
+    width: 100px;
+    height:25px;
+    float: right;
+    border-radius: 8px;
+}
+.container1{
+    margin: 10px;
+}
+#game{
+    height: 180px;
+    width: 280px;
+    border: 2px solid #FEFDED;
+    border-radius: 8px;
+    margin: 0 auto; /* This will center the div horizontally */
+    text-align: center;
+    
+}
+#gamepara{
+    margin:20px;
+    border: 2px solid #FEFDED;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.number2::placeholder {
+    text-align: center; /* Center the text horizontally */
+    line-height: inherit; /* Ensure the line height matches the input's height */
+    height: inherit; /* Ensure the height matches the input's height */
+  }
+.c1{
+    float: left;
+    width: auto;
+    height:auto;
+    border: 2px solid #FEFDED;
+    border-radius: 8px;
+    margin: 0 auto; /* This will center the div horizontally */
+    text-align: center;
+}
+#txt{
+    margin-top: 10px;
+}
+.centerdiv{
+    margin: 50px;
+    border: 2px solid #FEFDED ;
+    border-radius: 8px;
+}
+#mainpage{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px ;
+    border-radius: 5px;
+    border: 2px solid #FEFDED;
+}
+#mheading{
+    margin: 5px;
+}
+#mainpage p{
+    margin:5px;
+}
+#gamepage{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px ;
+    border-radius: 5px;
+    border: 2px solid #FEFDED;
+}
+#gheading{
+    margin: 5px;
+}
+#gamepage p{
+    margin:5px;
+}#features{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px ;
+    border-radius: 5px;
+    border: 2px solid #FEFDED;
+}
+#fheading{
+    margin: 5px;
+}
+#features p{
+    margin:5px;
+}
+
+#hints{
+    width:200px;
+    text-align: start;
+    margin:5px;
+}
+#outputtxt{
+    border: 1px solid gray;
+    margin: 1px;
+    text-align: left;
+    margin:2px;
+    width:200px;
+    
+}
