@@ -3,7 +3,7 @@ const username = localStorage.getItem('nameofuser');
 
 
 document.getElementById('gamehead').textContent= ` YO WHATS UP , ${username}`;
-document.getElementById('slctnum').textContent= `selected num between 1 - ${limitnumber}`;
+document.getElementById('slctnum').textContent= `selected num between 0 - ${limitnumber}`;
 
 
 let check = document.getElementById('check');
@@ -14,7 +14,7 @@ check.addEventListener('click',function(){
     let input=parseInt( document.getElementById('num2').value);
     attempts++
     document.getElementById('tries').textContent = `tries : ${attempts} `;
-    if(tries==10){ document.getElementById('tries').style.color = 'red';}
+    if(attempts==10){ document.getElementById('tries').style.color = 'red';}
     if(input == x){
         document.getElementById('hint').textContent= `hint: congrats`;
         document.getElementById('outputtxt').textContent= `Status:you guesed right `;
