@@ -13,12 +13,15 @@ let attempts = 0;
 check.addEventListener('click',function(){
     let input=parseInt( document.getElementById('num2').value);
     attempts++
-    document.getElementById('tries').textContent = `tries : ${attempts} `
+    document.getElementById('tries').textContent = `tries : ${attempts} `;
+    if(tries==10){ document.getElementById('tries').style.color = 'red';}
     if(input == x){
         document.getElementById('hint').textContent= `hint: congrats`;
         document.getElementById('outputtxt').textContent= `Status:you guesed right `;
         document.getElementById('gamehead').style.color = 'green';
         document.getElementById('hint').style.color = 'green';
+        document.getElementById('gamepara').style.color = 'green';
+        document.getElementById('tries').style.color = 'green';
     }
     else {
         if (input < x){
