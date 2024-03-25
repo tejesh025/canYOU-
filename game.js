@@ -7,26 +7,26 @@ document.getElementById('slctnum').textContent= `selected num between 1 - ${limi
 
 
 let check = document.getElementById('check');
-let randomNumber = [Math.floor(Math.random() * 100) ];
+let x = [Math.floor(Math.random() * limitnumber) ];
 let attempts = 0;
 
 check.addEventListener('click',function(){
-    let input= document.getElementById('num2').value;
+    let input=parseInt( document.getElementById('num2').value);
     attempts++
     document.getElementById('tries').textContent = `tries : ${attempts} `
-    if(input == randomNumber){
+    if(input == x){
         document.getElementById('hint').textContent= `hint: congrats`;
-        document.getElementById('outputtxt').textContent= `Status:you guesed right ${attempts}`;
+        document.getElementById('outputtxt').textContent= `Status:you guesed right `;
         document.getElementById('gamehead').style.color = 'green';
         document.getElementById('hint').style.color = 'green';
     }
     else {
-        if (input < randomNumber){
-        document.getElementById('hint').textContent= `hint: num is low`;
+        if (input < x){
+        document.getElementById('hint').textContent= `hint: ${input} is low`;
         document.getElementById('outputtxt').textContent= `Status:try again`;}
-        else if(input > randomNumber) 
+        else if(input > x) 
         {
-        document.getElementById('hint').textContent= `hint: num is high`;
+        document.getElementById('hint').textContent= `hint: ${input} is high`;
         document.getElementById('outputtxt').textContent= `Status:try again`;}
     }
 });
